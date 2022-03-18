@@ -1,0 +1,20 @@
+.contenedor{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.busqueda{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid;
+}
+
+.follow-ups{
+    border: solid;
+    margin-bottom: 10px;
+}
+
+.tools{
+    border: solid;
+
+}

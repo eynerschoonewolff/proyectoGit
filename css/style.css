@@ -1,0 +1,54 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(243, 241, 245);
+}
+
+header{
+    background-color: rgb(191, 162, 219);
+    padding-left: 10%;
+}
+
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.pie{
+    margin-top: 20px;
+    background-color: rgb(191, 162, 219);
+}
+
+.contacto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.contacto h2{
+	font-size: 1.8rem;
+	font-weight: 400;
+}
+
+.contacto p{
+	max-width: 500px;
+	line-height: 0%;
+	font-size: 14px;
+}

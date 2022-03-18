@@ -1,0 +1,131 @@
+    .presetacion {
+        margin: auto;
+        padding: 4%;
+        border-radius: 4px;
+        text-align: center;
+        background-color: #F0D9FF;
+        color: #7F7C82;
+    }
+    
+    .contenedor_registro {
+        width: 400px;
+        padding: 85px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-color: #F0D9FF;
+        width: 35%;
+        margin-block: 5%;
+    }
+    
+    .Cajas_registro {
+        width: 100%;
+        background-color: #F3F1F5;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: solid #7F7C82;
+        font-size: 18px;
+    }
+    
+    .pie_registro p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .pie_registro a:hover {
+        color: #7F7C82;
+        text-decoration: underline;
+    }
+    
+    .bottom2 {
+        text-align: center;
+        width: 50%;
+        background-color: #BFA2DB;
+        border: none;
+        border-radius: 15px;
+        display: inline-block;
+        padding: 15px;
+        box-shadow: 0 9px #999;
+        margin: 25px;
+        display: block;
+        width: -moz-available;
+        font-size: 16px;
+    }
+    
+    .bottom2:hover {
+        display: inline-block;
+        padding: 15px;
+        font-size: 17px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #f9f9f9;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+    
+    .enunciado_registro {
+        font-size: 16px;
+        color: black;
+        font-family: 'calibri';
+        line-height: 40px;
+    }
+    
+    td,
+    th {
+        background: #bfa2db;
+        color: #000;
+    }
+    
+    #tabla {
+        text-align: center;
+        background: blueviolet;
+        color: seagreen;
+        width: 29%;
+        height: 81%;
+        margin-block: 6%;
+        margin: auto;
+        margin-block: 5%;
+    }
+    
+    th {
+        color: #f9f9f9;
+    }
+    
+    .bottom {
+        text-align: center;
+        width: 13%;
+        background-color: #BFA2DB;
+        border: none;
+        border-radius: 15px;
+        display: inline-block;
+        padding: 1%;
+        box-shadow: 0 9px #999;
+        margin: 25px;
+        display: block;
+        font-size: 16px;
+        font-size: 16px;
+        position: relative;
+        left: 41%;
+    }
+    
+    .bottom:hover {
+        display: inline-block;
+        padding: 1%;
+        font-size: 17px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #f9f9f9;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }

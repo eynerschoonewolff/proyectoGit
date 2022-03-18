@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilo5.css">
+    <script src="/js/table2excel.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="informacion.html">Informacion</a></li>
+                <li><a href="registro_usuario.html">Registrate</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="presetacion">
+        <h1>Registro estudiantes</h1>
+    </div>
+
+    <div class="contenedor_registro">
+        <div class="cajas_de_registro">
+            <section>
+                <table id="table-example">
+                    <form id="formularioRegistro" method="post">
+                        <label class="enunciado_registro" for="Nombre estudiante">Nombre(s)</label>
+                        <input class="Cajas_registro" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                        <label class="enunciado_registro" for="Apellido estudiante">Apellido(s)</label>
+                        <input class="Cajas_registro" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese su Apellido">
+                        <label class="enunciado_registro" for="usuario">Usuario</label>
+                        <input class="Cajas_registro" type="text" name="Usuario" id="Usuario" placeholder="Ingrese su Usuario">
+                        <label class="enunciado_registro" for="password">Contraseña</label>
+                        <input class="Cajas_registro" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su contraseña">
+                        <label class="enunciado_registro" for="password">Repetir Contraseña</label>
+                        <input class="Cajas_registro" type="password" name="Contraseña" id="Contraseña" placeholder="Repita su contraseña">
+                        <label class="enunciado_registro" for="Email">Correo electronico</label>
+                        <input class="Cajas_registro" type="email" name="Correo" id="Correo" placeholder="Ingrese su correo">
+                        <input class="bottom2" type="submit" value="Registrar">
+                    </form>
+                </table>
+
+                <div class="pie_registro">
+                    <p>
+                        Estoy de acuerdo con
+                        <a href="">terminos y Condiciones</a>
+                    </p>
+                    <p>
+                        <a href=""></a>¿Ya tego cuenta de usuario?</p>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+
+    <table id="tabla" class="default">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Usuario</th>
+            <th>Contraseña</th>
+            <th>Correo electronico</th>
+            <th>Eliminar</th>
+        </tr>
+
+
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById('descargarExcel').addEventListener('click', function() {
+            var table2excel = new Table2Excel();
+            table2excel.export(document.querySelectorAll("table-example"));
+        });
+    </script>
+    <input class="bottom" type="submit" value="Exportar a excel" id="descargarExcel">
+    <div class="pie">
+        <div Class="contacto">
+            <h2>Contacto</h2>
+            <p>edconrado@itsa.edu.co, eschoonewolff@itsa.edu.co, kelly@itsa.edu.co</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="../js/registro_usuario.js"></script>

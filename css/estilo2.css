@@ -1,0 +1,28 @@
+
+.contenedor1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 20px;
+}
+
+.video-call{
+    border: solid;
+    
+}
+
+.chat{
+    border: solid;
+    margin-left: 15px;    
+}
+
+.contenedor2{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 15px;
+}
+
+.notes{
+    border: solid;
+}
